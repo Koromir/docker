@@ -12,6 +12,4 @@ WORKDIR /home
 
 COPY python_HELLO_WORLD.py ./
 
-EXPOSE 80/tcp
-
 CMD ["python", "./python_HELLO_WORLD.py"]
