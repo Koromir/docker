@@ -6,7 +6,7 @@ Created on Fri Jun 17 14:42:03 2022
 
 import os
 
-HELLO_WORLD = os.environ['HOME']
+HELLO_WORLD = os.environ['var']
 
+print('this is HELLO_WORLD output:')
 print(HELLO_WORLD)
-#small change
